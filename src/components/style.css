@@ -1,0 +1,132 @@
+*{ margin: 0; padding: 0; }
+
+.Menustyle{
+	width: 100%;
+	height: 100px;
+	background: white ;
+}
+
+
+.Menustyle ul {
+	height: 100px;
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+}
+
+.Menustyle ul li{
+	list-style: none;
+	font-size: 20px;
+     text-indent: -9px;
+	text-transform: uppercase;
+	color: white;
+	text-decoration-color: red;
+	display: block;
+
+} 
+
+#select{
+	width: 200px;
+	height: 50px;
+}
+
+#select option{
+	width: 200px;
+	height: 50px;
+}
+
+
+.homestyle{
+	width: 100%;
+	height: 500px;
+	background: #badc58;
+	color: black;
+	display: block;
+	justify-content: center;
+	align-items: center;
+
+
+}
+
+.main_div{
+	width: 100%;
+	height: 100vh;
+	background: blue;
+	color: black;
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+	align-items: center;
+	text-align: center;
+
+
+}
+
+.center_div{
+	width: 60%;
+	height: 60vh;
+	background-color: #f4f4f4;
+	box-shadow: 5px 5px 25px -5px rgba(5, 5, 5, 2);
+	border-radius: 10px;
+	margin-bottom: 100px;
+}
+
+.login_div{
+	width: 30%;
+	height: 80vh;
+	background-color: #f4f4f4;
+	box-shadow: 5px 5px 25px -5px rgba(5, 5, 5, 2);
+	border-radius: 10px;
+	margin-bottom: 100px;
+	align-items: center;
+	justify-content: center;
+}
+
+.userstyle{
+	width: 100%;
+	height: 500px;
+	background: #B2B3AA;
+	color: black;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+
+//Form
+input[type=text], input[type=varchar] {
+	width: 80%;
+	padding: 5px 22pxx;
+	margin: 10px 0px;
+	box-sizing: border-box;
+	border: 2px solid #58819F;
+}
+
+input[type=submit] {
+	background-color: #8842d5;
+	border: none;
+	color: white;
+	padding: 8px 36px;
+	text-decoration: none;
+	border: 2px solid #ccc;
+	margin: 5px 4px;
+	cursor: pointer;
+
+}
+
+// TodoApp
+
+.posts {
+	text-align: left;
+
+}
+
+.post {
+	border-bottom: 1px solid #000;
+}
+
+button {
+	width:100px;
+	height: 40px;
+}
+
